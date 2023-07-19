@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        float age =0;
+        Scanner consola = new Scanner((System.in));
+        System.out.println("ingrese su edad");
+        age = consola.nextFloat();
+
+        if (age > 70){
+            System.out.println("usted tiene 30% de descuento");
+        }
+        if (age < 70){
+            System.out.println("usted no tiene descuento");
+        }
+
+
+    }
+}
