@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        float llant =0;
+        Scanner consola = new Scanner((System.in));
+        System.out.println("cuantas llantas desea comprar");
+        llant = consola.nextFloat();
+
+        if (llant > 5){
+            System.out.println("Al por mayor cada llanta le cuesta $140,000");
+        }
+        if (llant < 4){
+            System.out.println("Al precio unitario cada llanta le cuesta $160,000");
+        }
+
+    }
+}
