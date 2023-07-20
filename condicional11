@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        float des =0;
+        Scanner consola = new Scanner((System.in));
+        System.out.println("cuantos computadores desea comprar");
+        des = consola.nextFloat();
+
+        if (des > 5){
+            System.out.println("Usted tiene descuento del 20%");
+        }
+        if (des < 5){
+            System.out.println("Usted tiene descuento del 10%");
+        }
+
+    }
+}
