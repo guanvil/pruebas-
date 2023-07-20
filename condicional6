@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner consola = new Scanner((System.in));
+        String contraseña;
+        System.out.println("ecriba la contraseña");
+        contraseña = consola.nextLine();
+        String cadena2 = "solrac";
+
+        if (contraseña.equals(cadena2))
+            System.out.println("La contraseña coincide");
+        else
+            System.out.println("no coincide");
+    }
+}
+
