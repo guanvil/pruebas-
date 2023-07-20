@@ -2,22 +2,22 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        double edad = 0;
+        double altura = 0;
         String nombre;
         Scanner consola = new Scanner((System.in));
 
         System.out.println("ecriba su nombre");
         nombre = consola.nextLine();
         System.out.println("escriba su altura");
-        edad = consola.nextFloat();
+        altura = consola.nextFloat();
 
         System.out.println("Su nombre es " + nombre);
 
-        if (edad<1.65){
+        if (altura<1.65){
             System.out.println("usted es pequeño");
         }
 
-        if (edad>1.65)
+        if (altura>1.65)
         {
             System.out.println("Usted es alto");
         }
