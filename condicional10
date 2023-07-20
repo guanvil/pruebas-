@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner consola = new Scanner((System.in));
+        String contraseña;
+        System.out.println("escriba el color de la bola que le toco(blanco,verde,amarillo,azul,rojo)");
+        contraseña = consola.nextLine();
+        String cadena2 = "blanco";
+        String cadena3 = "verde";
+        String cadena4 = "amarillo";
+        String cadena5 = "azul";
+        String cadena6 = "rojo";
+
+
+        if (contraseña.equals(cadena2)) {
+            System.out.println("Usted no tiene descuento");
+        }
+        if (contraseña.equals(cadena3))
+        {
+            System.out.println("Tiene descuento del 10%");
+    }
+        if (contraseña.equals(cadena4))
+        {
+            System.out.println("Tiene descuento del 25%");
+    }
+        if (contraseña.equals(cadena5)) {
+            System.out.println("Tiene descuento del 50%");
+        }
+        if (contraseña.equals(cadena6))
+            System.out.println("Tiene descuento del 100%");
+    }
+
+}
