@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        float cam =0;
+        Scanner consola = new Scanner((System.in));
+        System.out.println("cuantas camisas desea comprar");
+        cam = consola.nextFloat();
+
+        if (cam > 3){
+            System.out.println("Usted tiene descuento del 20%");
+        }
+        if (cam < 3){
+            System.out.println("Usted tiene descuento del 10%");
+        }
+
+    }
+}
